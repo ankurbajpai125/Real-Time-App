@@ -21,7 +21,7 @@ const [Time,setTime] = useState(new Date().toLocaleTimeString("en-US", {
   return (
     <div className="container">
       <h1>{Time}</h1>
-//       <button onClick = {updateTime}>Get Time</button>
+
     </div>
   );
 }
